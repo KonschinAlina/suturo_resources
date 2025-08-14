@@ -17,7 +17,7 @@
         name="joint_state_publisher_gui" output="screen">
     <remap from="robot_description" to="$(arg loc_of_urdf_1)"/>
     <param name="rate" value="25"/>
-    <param name="use_gui" value="True"/>
+    <param name="use_gui" value="False"/>
     <remap from="/joint_states" to="/$(arg joint_states_prefix)/joint_states" />
     <rosparam param="source_list">
       - /kitchen/cram_joint_states
