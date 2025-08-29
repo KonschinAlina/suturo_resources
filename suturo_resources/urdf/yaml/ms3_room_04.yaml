@@ -17,7 +17,7 @@ couch:
     perception_postfix: origin
     amount: 1
     0:
-      name: suturo_couch
+      name: couch
       knowledge_role: couch
       parent: urdf_offset
       width:  1.7
