@@ -278,7 +278,7 @@ tables:
     amount: 8
     0:
       name: long_table
-      knowledge_role: l_table
+      knowledge_role: long_table
       parent: urdf_offset
       width:  1.17
       height: 0.735
@@ -289,7 +289,7 @@ tables:
       
     1:
       name: popcorn_table
-      knowledge_role: p_table
+      knowledge_role: popcorn_table
       parent: urdf_offset
       width:  1.8
       height: 0.71
