@@ -31,7 +31,7 @@ dishwashers:
     perception_postfix: dishwasher_center
     amount: 1
     0:
-      name: suturo_dishwasher
+      name: dishwasher
       knowledge_role: dishwasher
       parent: urdf_offset
       z_rot: 1.57
