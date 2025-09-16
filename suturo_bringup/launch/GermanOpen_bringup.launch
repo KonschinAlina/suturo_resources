@@ -33,7 +33,7 @@
 
 <!--Rviz -->
 <group if="$(eval arg('use_rviz') == true)">
-<node name="rviz" pkg="rviz" type="rviz" args="-d $(find suturo_bringup)/germanOpen.rviz"/>
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find suturo_bringup)/BAConfig.rviz"/>
 </group>
 
 
