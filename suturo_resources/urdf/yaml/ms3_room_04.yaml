@@ -48,7 +48,7 @@ dishwashers:
 
 # D
 doors:
-    amount: 2
+    amount: 0
     0:
       room1: iai_kitchen
       room2: arena
