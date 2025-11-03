@@ -55,7 +55,7 @@ tables:
    amount: 3 
    0:
       name: long_table
-      knowledge_role: l_table
+      knowledge_role: long_table
       parent: urdf_offset
       width:  1.17
       height: 0.735
@@ -66,7 +66,7 @@ tables:
       
    1:
       name: popcorn_table
-      knowledge_role: p_table
+      knowledge_role: popcorn_table
       parent: urdf_offset
       width:  1.8
       height: 0.71
@@ -87,7 +87,7 @@ tables:
       y_pos: 1.99
       
 doors:
-   amount: 2
+   amount: 0
    0:
       room1: iai_kitchen
       room2: arena
@@ -122,7 +122,7 @@ doors:
       handle_z: 0.02
         
 walls:
-    amount: 12
+    amount: 3
     0:
       name: wall_1
       knowledge_role: wall_1
