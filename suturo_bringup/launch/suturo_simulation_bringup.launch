@@ -24,7 +24,7 @@
 
 
 <group if="$(eval arg('use_rviz') == true)">
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find suturo_resources)/rviz_configs/suturo.rviz"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find suturo_bringup)/BAConfig.rviz"/>
 </group>
 
 </launch>
