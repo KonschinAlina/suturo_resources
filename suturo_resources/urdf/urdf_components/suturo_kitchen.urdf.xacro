@@ -854,8 +854,7 @@
     <child link="oven_area_area_left_drawer_main"/>
     <axis xyz="1. 0. 0.0"/>
     <limit effort="300" lower="0" upper="0.48" velocity="10"/>
-
-        <limit effort="300" lower="0" upper="0" velocity="10"/>
+	<!--<limit effort="300" lower="0" upper="0" velocity="10"/>-->
   </joint>
   <joint name="oven_area_area_left_drawer_handle_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0.3525 0 0"/>
