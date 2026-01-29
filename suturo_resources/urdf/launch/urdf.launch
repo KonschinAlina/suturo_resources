@@ -13,16 +13,16 @@
   
   <param name="$(arg loc_of_urdf_2)" command="$(find xacro)/xacro $(arg model) yaml_file:=$(find suturo_resources)/urdf/yaml/$(arg world_urdf_yaml)" />
 
- <!-- <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui"
-        name="joint_state_publisher_gui" output="screen">
+  <node pkg="joint_state_publisher" type="joint_state_publisher"
+        name="joint_state_publisher" output="screen">
     <remap from="robot_description" to="$(arg loc_of_urdf_1)"/>
     <param name="rate" value="25"/>
-    <param name="use_gui" value="True"/>
+    <param name="use_gui" value="False"/>
     <remap from="/joint_states" to="/$(arg joint_states_prefix)/joint_states" />
     <rosparam param="source_list">
       - /kitchen/cram_joint_states
     </rosparam>
-  </node> -->
+  </node>
 
   <node pkg="tf" type="static_transform_publisher" name="environment_link_broadcaster"
     args="0 0 0 0 0 0 /map /$(arg tf_prefix)/urdf_main 25">
