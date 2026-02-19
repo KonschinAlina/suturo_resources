@@ -1,5 +1,13 @@
 <launch>
-    <arg name="urdf_path" /> <arg name="map_name" default="projectroom_beta/ms3_room_02.yaml"/>
+    <arg name="urdf_path" /> 
+    <arg name="map_name" default=""/>
+
+    <group if="$(eval arg('map_name') != '')">
+        <include file="$(find hsrb_rosnav_config)/launch/hsrb_nav.launch">
+            <arg name="map_file" value="$(find suturo_resources)/maps/$(arg map_name)"/>
+        </include>
+    </group>
+    
     <arg name="use_rviz" default="true"/>
     
     <param name="kitchen_description" textfile="$(arg urdf_path)" />
