@@ -1,43 +1,44 @@
 <launch>
     <arg name="urdf_path" /> 
     <arg name="map_name" default=""/>
-
-    <group if="$(eval arg('map_name') != '')">
-        <include file="$(find hsrb_rosnav_config)/launch/hsrb_nav.launch">
-            <arg name="map_file" value="$(find suturo_resources)/maps/$(arg map_name)"/>
-        </include>
-    </group>
-    
     <arg name="use_rviz" default="true"/>
-    
+
     <param name="kitchen_description" textfile="$(arg urdf_path)" />
     <param name="iai_kitchen" textfile="$(arg urdf_path)" />
 
+    <!--HSRB URDF-->
+    <param name="robot_description" command="$(find xacro)/xacro '$(find hsr_description)/robots/hsrb4s.urdf.xacro'"/>
+
+    <!--Nodes-->
+    <node pkg="tf" type="static_transform_publisher" name="map_to_kitchen" 
+          args="0 0 0 0 0 0 map iai_kitchen/apartment_root 100" />
+
+    <node pkg="tf" type="static_transform_publisher" name="map_to_base_footprint_broadcaster" 
+              args="0 0 0.08 0 0 0 1 hand_palm_link hand_gripper_tool_frame 100" />
+
+
+    <!--Joint State Publisher-->
     <node name="kitchen_joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
         <remap from="robot_description" to="kitchen_description" />
         <remap from="joint_states" to="/iai_kitchen/joint_states" />
         <param name="publish_default_positions" value="true" />
     </node>
 
+    <!--Robot State Publisher-->
     <node name="kitchen_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
         <remap from="robot_description" to="kitchen_description" />
         <remap from="joint_states" to="/iai_kitchen/joint_states" />
         <param name="tf_prefix" value="iai_kitchen" />
     </node>
 
-    <node pkg="tf" type="static_transform_publisher" name="map_to_kitchen" 
-          args="0 0 0 0 0 0 map iai_kitchen/apartment_root 100" />
-          
-    <node pkg="tf" type="static_transform_publisher" name="map_to_base_footprint_broadcaster" 
-          args="0 0 0.08 0 0 0 1 hand_palm_link hand_gripper_tool_frame 100" />
+    <!--Upload amcl/map-->
+    <group if="$(eval arg('map_name') != '')">
+        <include file="$(find hsrb_rosnav_config)/launch/hsrb_nav.launch">
+            <arg name="map_file" value="$(find suturo_resources)/maps/$(arg map_name)"/>
+        </include>
+    </group>
 
-    <include file="$(find hsrb_rosnav_config)/launch/hsrb_nav.launch">
-        <arg name="map_file" value="$(find suturo_resources)/maps/$(arg map_name)"/>
-    </include>
-
-    <param name="robot_description" command="$(find xacro)/xacro '$(find hsr_description)/robots/hsrb4s.urdf.xacro'"/>
-
+    <!--Rviz-->
     <node if="$(arg use_rviz)" name="rviz" pkg="rviz" type="rviz" 
           args="-d $(find suturo_bringup)/BAConfig.rviz"/>
-
 </launch>
