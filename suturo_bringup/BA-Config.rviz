@@ -1,0 +1,1372 @@
+Panels:
+  - Class: rviz/Displays
+    Help Height: 138
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /TF1
+        - /TF1/Frames1
+      Splitter Ratio: 0.6426510214805603
+    Tree Height: 593
+  - Class: rviz/Selection
+    Name: Selection
+  - Class: rviz/Tool Properties
+    Expanded:
+      - /2D Pose Estimate1
+      - /2D Nav Goal1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz/Time
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Preferences:
+  PromptSaveOnExit: true
+Toolbars:
+  toolButtonStyle: 2
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        apartment_root:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        armchair:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        bedside_table:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet10_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet10_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet10_drawer_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet11_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet11_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet11_drawer_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet12_door_bottom_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet12_door_bottom_out_fancy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet12_door_top_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet12_door_top_out_fancy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet1_coloksu_level4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet1_coloksu_level5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet1_door_top_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet1_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet1_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet2_door_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet2_door_out_fancy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet2_drawer_big:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet2_drawer_small:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet3_door_bottom_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet3_door_bottom_out_fancy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet3_door_top_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet3_door_top_out_fancy:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        cabinet4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet4_door_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet4_door_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet5:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet5_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet5_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet5_drawer_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet6:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet6_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet6_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet6_drawer_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet7_door_bottom_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet8_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet8_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet9:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet9_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet9_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cabinet9_drawer_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        coffe_machine:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        coffee_table:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        coffee_table_drawer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        cooktop:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        countertop:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        dishwasher_drawer_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        furnitures_root:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        handle_cab10_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab10_m:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab10_t:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab11_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab11_m:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab11_t:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab1_drawer_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab1_drawer_mid:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab1_top_door:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab2_door:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab3_door_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab3_door_top:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab4_door_bottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab5_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab5_m:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab5_t:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab6_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab6_m:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab6_t:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab7:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab7_middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab8:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab9_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab9_m:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        handle_cab9_t:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hotplate1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hotplate2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hotplate3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        hotplate4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        island_back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        island_countertop:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        island_waterfall_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        island_waterfall_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        kitchen_root:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        oven:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        side_A:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        side_A_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        side_A_rb:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        side_A_rt:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        side_B:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        sink:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        sofa:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        tap_body:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        tap_handle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        tap_handle_open:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        useless_underbar_a:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        useless_underbar_b:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_coloksu_wall1:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_coloksu_wall2:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_coloksu_wall3:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wall_coloksu_wall4:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        walls:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wardrobe:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wardrobe_door_left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wardrobe_door_left_handle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wardrobe_door_right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        wardrobe_door_right_handle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        windows:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Name: KitchenModel
+      Robot Description: kitchen_description
+      TF Prefix: iai_kitchen
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: false
+      Name: Map
+      Topic: /map
+      Unreliable: false
+      Use Timestamp: false
+      Value: false
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: costmap
+      Draw Behind: false
+      Enabled: true
+      Name: Map_dynamic_obstacle
+      Topic: /dynamic_obstacle_map
+      Unreliable: false
+      Use Timestamp: false
+      Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz/Map
+      Color Scheme: map
+      Draw Behind: true
+      Enabled: false
+      Name: Map
+      Topic: /move_base/local_costmap/costmap
+      Unreliable: false
+      Use Timestamp: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Collision Enabled: false
+      Enabled: false
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+      Name: RobotModel
+      Robot Description: robot_description
+      TF Prefix: ""
+      Update Interval: 0
+      Value: false
+      Visual Enabled: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 10
+        Min Value: -10
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/LaserScan
+      Color: 255; 255; 255
+      Color Transformer: Intensity
+      Decay Time: 0
+      Enabled: true
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: RangeSensor
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.029999999329447746
+      Style: Flat Squares
+      Topic: /hsrb/base_scan
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: true
+    - Alpha: 1
+      Autocompute Intensity Bounds: true
+      Autocompute Value Bounds:
+        Max Value: 0.9005119800567627
+        Min Value: 0.27587899565696716
+        Value: true
+      Axis: Z
+      Channel Name: intensity
+      Class: rviz/PointCloud2
+      Color: 255; 255; 255
+      Color Transformer: RGB8
+      Decay Time: 0
+      Enabled: false
+      Invert Rainbow: false
+      Max Color: 255; 255; 255
+      Min Color: 0; 0; 0
+      Name: XtionCloud
+      Position Transformer: XYZ
+      Queue Size: 10
+      Selectable: true
+      Size (Pixels): 3
+      Size (m): 0.009999999776482582
+      Style: Flat Squares
+      Topic: /hsrb/head_rgbd_sensor/depth_registered/rectified_points
+      Unreliable: false
+      Use Fixed Frame: true
+      Use rainbow: true
+      Value: false
+    - Alpha: 1
+      Arrow Width: 0.5
+      Class: rviz/WrenchStamped
+      Enabled: false
+      Force Arrow Scale: 2
+      Force Color: 204; 51; 51
+      Hide Small Values: true
+      History Length: 1
+      Name: HandForceTorque
+      Queue Size: 10
+      Topic: /hsrb/wrrist_wrench
+      Torque Arrow Scale: 2
+      Torque Color: 204; 204; 51
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Class: rviz/GridCells
+      Color: 25; 255; 0
+      Enabled: false
+      Name: GridCells
+      Queue Size: 10
+      Topic: /base_path_planner/inflated_static_obstacle_map
+      Unreliable: false
+      Value: false
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 239; 41; 41
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/NavfnROS/plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.30000001192092896
+      Axes Length: 0.30000001192092896
+      Axes Radius: 0.009999999776482582
+      Class: rviz/PoseArray
+      Color: 52; 101; 164
+      Enabled: true
+      Head Length: 0.07000000029802322
+      Head Radius: 0.029999999329447746
+      Name: PoseArray
+      Queue Size: 10
+      Shaft Length: 0.23000000417232513
+      Shaft Radius: 0.009999999776482582
+      Shape: Arrow (Flat)
+      Topic: /particlecloud
+      Unreliable: false
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pycram/manual_marker
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/MarkerArray
+      Enabled: true
+      Marker Topic: /pycram/viz_marker
+      Name: MarkerArray
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 25; 255; 0
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/TrajectoryPlannerROS/global_plan
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Buffer Length: 1
+      Class: rviz/Path
+      Color: 32; 74; 135
+      Enabled: true
+      Head Diameter: 0.30000001192092896
+      Head Length: 0.20000000298023224
+      Length: 0.30000001192092896
+      Line Style: Lines
+      Line Width: 0.029999999329447746
+      Name: Path
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Pose Color: 255; 85; 255
+      Pose Style: None
+      Queue Size: 10
+      Radius: 0.029999999329447746
+      Shaft Diameter: 0.10000000149011612
+      Shaft Length: 0.10000000149011612
+      Topic: /move_base/TrajectoryPlannerROS/local_plan
+      Unreliable: false
+      Value: true
+    - Class: rviz/TF
+      Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        All Enabled: false
+        hand_gripper_tool_frame:
+          Value: false
+        hand_palm_link:
+          Value: false
+        iai_kitchen/apartment_root:
+          Value: false
+        iai_kitchen/armchair:
+          Value: false
+        iai_kitchen/bedside_table:
+          Value: false
+        iai_kitchen/cabinet1:
+          Value: false
+        iai_kitchen/cabinet10:
+          Value: false
+        iai_kitchen/cabinet10_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet10_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet10_drawer_top:
+          Value: false
+        iai_kitchen/cabinet11:
+          Value: false
+        iai_kitchen/cabinet11_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet11_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet11_drawer_top:
+          Value: false
+        iai_kitchen/cabinet12:
+          Value: false
+        iai_kitchen/cabinet12_door_bottom_left:
+          Value: false
+        iai_kitchen/cabinet12_door_bottom_out_fancy:
+          Value: false
+        iai_kitchen/cabinet12_door_top_left:
+          Value: false
+        iai_kitchen/cabinet12_door_top_out_fancy:
+          Value: false
+        iai_kitchen/cabinet1_coloksu_level4:
+          Value: false
+        iai_kitchen/cabinet1_coloksu_level5:
+          Value: false
+        iai_kitchen/cabinet1_door_top_left:
+          Value: false
+        iai_kitchen/cabinet1_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet1_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet2:
+          Value: false
+        iai_kitchen/cabinet2_door_left:
+          Value: false
+        iai_kitchen/cabinet2_door_out_fancy:
+          Value: false
+        iai_kitchen/cabinet2_drawer_big:
+          Value: false
+        iai_kitchen/cabinet2_drawer_small:
+          Value: false
+        iai_kitchen/cabinet3:
+          Value: false
+        iai_kitchen/cabinet3_door_bottom_left:
+          Value: false
+        iai_kitchen/cabinet3_door_bottom_out_fancy:
+          Value: false
+        iai_kitchen/cabinet3_door_top_left:
+          Value: false
+        iai_kitchen/cabinet3_door_top_out_fancy:
+          Value: false
+        iai_kitchen/cabinet4:
+          Value: false
+        iai_kitchen/cabinet4_door_bottom:
+          Value: false
+        iai_kitchen/cabinet4_door_top:
+          Value: false
+        iai_kitchen/cabinet5:
+          Value: false
+        iai_kitchen/cabinet5_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet5_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet5_drawer_top:
+          Value: false
+        iai_kitchen/cabinet6:
+          Value: false
+        iai_kitchen/cabinet6_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet6_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet6_drawer_top:
+          Value: false
+        iai_kitchen/cabinet7:
+          Value: false
+        iai_kitchen/cabinet7_door_bottom_left:
+          Value: false
+        iai_kitchen/cabinet8:
+          Value: false
+        iai_kitchen/cabinet8_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet8_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet9:
+          Value: false
+        iai_kitchen/cabinet9_drawer_bottom:
+          Value: false
+        iai_kitchen/cabinet9_drawer_middle:
+          Value: false
+        iai_kitchen/cabinet9_drawer_top:
+          Value: false
+        iai_kitchen/coffe_machine:
+          Value: false
+        iai_kitchen/coffee_table:
+          Value: false
+        iai_kitchen/coffee_table_drawer:
+          Value: false
+        iai_kitchen/cooktop:
+          Value: false
+        iai_kitchen/countertop:
+          Value: false
+        iai_kitchen/dishwasher_drawer_middle:
+          Value: false
+        iai_kitchen/furnitures_root:
+          Value: false
+        iai_kitchen/handle_cab10_b:
+          Value: false
+        iai_kitchen/handle_cab10_m:
+          Value: false
+        iai_kitchen/handle_cab10_t:
+          Value: false
+        iai_kitchen/handle_cab11_b:
+          Value: false
+        iai_kitchen/handle_cab11_m:
+          Value: false
+        iai_kitchen/handle_cab11_t:
+          Value: false
+        iai_kitchen/handle_cab1_drawer_bottom:
+          Value: false
+        iai_kitchen/handle_cab1_drawer_mid:
+          Value: false
+        iai_kitchen/handle_cab1_top_door:
+          Value: false
+        iai_kitchen/handle_cab2_door:
+          Value: false
+        iai_kitchen/handle_cab3_door_bottom:
+          Value: false
+        iai_kitchen/handle_cab3_door_top:
+          Value: false
+        iai_kitchen/handle_cab4_door_bottom:
+          Value: false
+        iai_kitchen/handle_cab5_b:
+          Value: false
+        iai_kitchen/handle_cab5_m:
+          Value: false
+        iai_kitchen/handle_cab5_t:
+          Value: false
+        iai_kitchen/handle_cab6_b:
+          Value: false
+        iai_kitchen/handle_cab6_m:
+          Value: false
+        iai_kitchen/handle_cab6_t:
+          Value: false
+        iai_kitchen/handle_cab7:
+          Value: false
+        iai_kitchen/handle_cab7_middle:
+          Value: false
+        iai_kitchen/handle_cab8:
+          Value: false
+        iai_kitchen/handle_cab9_b:
+          Value: false
+        iai_kitchen/handle_cab9_m:
+          Value: false
+        iai_kitchen/handle_cab9_t:
+          Value: false
+        iai_kitchen/hotplate1:
+          Value: false
+        iai_kitchen/hotplate2:
+          Value: false
+        iai_kitchen/hotplate3:
+          Value: false
+        iai_kitchen/hotplate4:
+          Value: false
+        iai_kitchen/island_back:
+          Value: false
+        iai_kitchen/island_countertop:
+          Value: false
+        iai_kitchen/island_waterfall_left:
+          Value: false
+        iai_kitchen/island_waterfall_right:
+          Value: false
+        iai_kitchen/kitchen_root:
+          Value: false
+        iai_kitchen/oven:
+          Value: false
+        iai_kitchen/side_A:
+          Value: false
+        iai_kitchen/side_A_left:
+          Value: false
+        iai_kitchen/side_A_rb:
+          Value: false
+        iai_kitchen/side_A_rt:
+          Value: false
+        iai_kitchen/side_B:
+          Value: false
+        iai_kitchen/sink:
+          Value: false
+        iai_kitchen/sofa:
+          Value: false
+        iai_kitchen/tap_body:
+          Value: false
+        iai_kitchen/tap_handle:
+          Value: false
+        iai_kitchen/tap_handle_open:
+          Value: false
+        iai_kitchen/useless_underbar_a:
+          Value: false
+        iai_kitchen/useless_underbar_b:
+          Value: false
+        iai_kitchen/wall_coloksu_wall1:
+          Value: false
+        iai_kitchen/wall_coloksu_wall2:
+          Value: false
+        iai_kitchen/wall_coloksu_wall3:
+          Value: false
+        iai_kitchen/wall_coloksu_wall4:
+          Value: false
+        iai_kitchen/walls:
+          Value: false
+        iai_kitchen/wardrobe:
+          Value: false
+        iai_kitchen/wardrobe_door_left:
+          Value: false
+        iai_kitchen/wardrobe_door_left_handle:
+          Value: false
+        iai_kitchen/wardrobe_door_right:
+          Value: false
+        iai_kitchen/wardrobe_door_right_handle:
+          Value: false
+        iai_kitchen/windows:
+          Value: false
+        map:
+          Value: false
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        hand_palm_link:
+          hand_gripper_tool_frame:
+            {}
+        map:
+          iai_kitchen/apartment_root:
+            iai_kitchen/furnitures_root:
+              iai_kitchen/armchair:
+                {}
+              iai_kitchen/bedside_table:
+                {}
+              iai_kitchen/coffee_table:
+                iai_kitchen/coffee_table_drawer:
+                  {}
+              iai_kitchen/sofa:
+                {}
+              iai_kitchen/wall_coloksu_wall1:
+                {}
+              iai_kitchen/wall_coloksu_wall2:
+                {}
+              iai_kitchen/wall_coloksu_wall3:
+                {}
+              iai_kitchen/wall_coloksu_wall4:
+                {}
+              iai_kitchen/walls:
+                {}
+              iai_kitchen/wardrobe:
+                iai_kitchen/wardrobe_door_left:
+                  iai_kitchen/wardrobe_door_left_handle:
+                    {}
+                iai_kitchen/wardrobe_door_right:
+                  iai_kitchen/wardrobe_door_right_handle:
+                    {}
+              iai_kitchen/windows:
+                {}
+            iai_kitchen/kitchen_root:
+              iai_kitchen/side_A:
+                iai_kitchen/cabinet1:
+                  iai_kitchen/cabinet1_coloksu_level4:
+                    {}
+                  iai_kitchen/cabinet1_coloksu_level5:
+                    {}
+                  iai_kitchen/cabinet1_door_top_left:
+                    iai_kitchen/handle_cab1_top_door:
+                      {}
+                  iai_kitchen/cabinet1_drawer_bottom:
+                    iai_kitchen/handle_cab1_drawer_bottom:
+                      {}
+                  iai_kitchen/cabinet1_drawer_middle:
+                    iai_kitchen/handle_cab1_drawer_mid:
+                      {}
+                  iai_kitchen/oven:
+                    {}
+                iai_kitchen/cabinet12:
+                  iai_kitchen/cabinet12_door_bottom_out_fancy:
+                    iai_kitchen/cabinet12_door_bottom_left:
+                      {}
+                  iai_kitchen/cabinet12_door_top_out_fancy:
+                    iai_kitchen/cabinet12_door_top_left:
+                      {}
+                iai_kitchen/cabinet2:
+                  iai_kitchen/cabinet2_door_out_fancy:
+                    iai_kitchen/cabinet2_door_left:
+                      iai_kitchen/handle_cab2_door:
+                        {}
+                  iai_kitchen/cabinet2_drawer_big:
+                    {}
+                  iai_kitchen/cabinet2_drawer_small:
+                    {}
+                iai_kitchen/cabinet3:
+                  iai_kitchen/cabinet3_door_bottom_out_fancy:
+                    iai_kitchen/cabinet3_door_bottom_left:
+                      iai_kitchen/handle_cab3_door_bottom:
+                        {}
+                  iai_kitchen/cabinet3_door_top_out_fancy:
+                    iai_kitchen/cabinet3_door_top_left:
+                      iai_kitchen/handle_cab3_door_top:
+                        {}
+                iai_kitchen/cabinet4:
+                  iai_kitchen/cabinet4_door_top:
+                    iai_kitchen/cabinet4_door_bottom:
+                      iai_kitchen/handle_cab4_door_bottom:
+                        {}
+                iai_kitchen/cabinet5:
+                  iai_kitchen/cabinet5_drawer_bottom:
+                    iai_kitchen/handle_cab5_b:
+                      {}
+                  iai_kitchen/cabinet5_drawer_middle:
+                    iai_kitchen/handle_cab5_m:
+                      {}
+                  iai_kitchen/cabinet5_drawer_top:
+                    iai_kitchen/handle_cab5_t:
+                      {}
+                  iai_kitchen/countertop:
+                    iai_kitchen/coffe_machine:
+                      {}
+                iai_kitchen/cabinet6:
+                  iai_kitchen/cabinet6_drawer_bottom:
+                    iai_kitchen/handle_cab6_b:
+                      {}
+                  iai_kitchen/cabinet6_drawer_middle:
+                    iai_kitchen/handle_cab6_m:
+                      {}
+                  iai_kitchen/cabinet6_drawer_top:
+                    iai_kitchen/handle_cab6_t:
+                      {}
+                iai_kitchen/side_A_left:
+                  {}
+                iai_kitchen/side_A_rb:
+                  {}
+                iai_kitchen/side_A_rt:
+                  {}
+                iai_kitchen/useless_underbar_a:
+                  {}
+              iai_kitchen/side_B:
+                iai_kitchen/cabinet10:
+                  iai_kitchen/cabinet10_drawer_bottom:
+                    iai_kitchen/handle_cab10_b:
+                      {}
+                  iai_kitchen/cabinet10_drawer_middle:
+                    iai_kitchen/handle_cab10_m:
+                      {}
+                  iai_kitchen/cabinet10_drawer_top:
+                    iai_kitchen/handle_cab10_t:
+                      {}
+                iai_kitchen/cabinet11:
+                  iai_kitchen/cabinet11_drawer_bottom:
+                    iai_kitchen/handle_cab11_b:
+                      {}
+                  iai_kitchen/cabinet11_drawer_middle:
+                    iai_kitchen/handle_cab11_m:
+                      {}
+                  iai_kitchen/cabinet11_drawer_top:
+                    iai_kitchen/handle_cab11_t:
+                      {}
+                iai_kitchen/cabinet7:
+                  iai_kitchen/cabinet7_door_bottom_left:
+                    iai_kitchen/handle_cab7:
+                      {}
+                  iai_kitchen/dishwasher_drawer_middle:
+                    iai_kitchen/handle_cab7_middle:
+                      {}
+                iai_kitchen/cabinet8:
+                  iai_kitchen/cabinet8_drawer_bottom:
+                    iai_kitchen/handle_cab8:
+                      {}
+                  iai_kitchen/cabinet8_drawer_middle:
+                    {}
+                iai_kitchen/cabinet9:
+                  iai_kitchen/cabinet9_drawer_bottom:
+                    iai_kitchen/handle_cab9_b:
+                      {}
+                  iai_kitchen/cabinet9_drawer_middle:
+                    iai_kitchen/handle_cab9_m:
+                      {}
+                  iai_kitchen/cabinet9_drawer_top:
+                    iai_kitchen/handle_cab9_t:
+                      {}
+                iai_kitchen/island_back:
+                  {}
+                iai_kitchen/island_countertop:
+                  iai_kitchen/cooktop:
+                    iai_kitchen/hotplate1:
+                      {}
+                    iai_kitchen/hotplate2:
+                      {}
+                    iai_kitchen/hotplate3:
+                      {}
+                    iai_kitchen/hotplate4:
+                      {}
+                  iai_kitchen/sink:
+                    iai_kitchen/tap_body:
+                      iai_kitchen/tap_handle_open:
+                        iai_kitchen/tap_handle:
+                          {}
+                iai_kitchen/island_waterfall_left:
+                  {}
+                iai_kitchen/island_waterfall_right:
+                  {}
+                iai_kitchen/useless_underbar_b:
+                  {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz/Interact
+      Hide Inactive Objects: true
+    - Class: rviz/MoveCamera
+    - Class: rviz/Select
+    - Class: rviz/FocusCamera
+    - Class: rviz/Measure
+    - Class: rviz/SetInitialPose
+      Theta std deviation: 0.2617993950843811
+      Topic: /initialpose
+      X std deviation: 0.5
+      Y std deviation: 0.5
+    - Class: rviz/SetGoal
+      Topic: /goal
+    - Class: rviz/PublishPoint
+      Single click: true
+      Topic: /clicked_point
+  Value: true
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 15.330710411071777
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Field of View: 0.7853981852531433
+      Focal Point:
+        X: -0.3036189377307892
+        Y: 2.602750062942505
+        Z: -5.327387809753418
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 1.0947966575622559
+      Target Frame: <Fixed Frame>
+      Yaw: 6.276355266571045
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 903
+  Hide Left Dock: true
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000024100000331fc020000000dfb0000001200530065006c0065006300740069006f006e00000001e10000009b0000005c00fffffffb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afc0000003b000003310000000000fffffffaffffffff0100000002fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730000000000ffffffff0000008f00fffffffb000000100044006900730070006c0061007900730000000000000005420000015600fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000001c004800650061006400430061006d006500720061004c006500660074000000016a0000005d0000000000000000fb00000014005800740069006f006e004400650070007400680000000192000000690000000000000000fb0000001e004800650061006400430061006d0065007200610052006900670068007400000001c5000000770000000000000000fb00000014005800740069006f006e0049006d00610067006500000002070000008c0000000000000000fb0000001400480061006e006400430061006d0065007200610000000263000000a60000000000000000fb00000020004800650061006400430061006d00650072006100430065006e00740065007200000002e8000000ce0000000000000000000000010000012f0000038bfc0200000008fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb00000014005800740069006f006e00440065007000740068000000002b000000950000000000000000fb00000014005800740069006f006e0049006d006100670065000000002b000000e10000000000000000fc000000c8000001210000000000fffffffa000000000100000002fb0000001400480061006e006400430061006d0065007200610000000000ffffffff0000000000000000fb00000020004800650061006400430061006d00650072006100430065006e007400650072000000057e0000012f0000000000000000fb0000001c004800650061006400430061006d006500720061004c006500660074000000002b000001c00000000000000000fb0000001e004800650061006400430061006d00650072006100520069006700680074000000002b0000038b0000000000000000fb0000000a0056006900650077007300000002e7000000f8000000a000fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004290000005efc0100000002fb0000000800540069006d00650000000000000004290000030700fffffffb0000000800540069006d00650100000000000004500000000000000000000004290000033100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: true
+  Views:
+    collapsed: false
+  Width: 1065
+  X: 0
+  Y: 27
