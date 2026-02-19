@@ -40,5 +40,5 @@
 
     <!--Rviz-->
     <node if="$(arg use_rviz)" name="rviz" pkg="rviz" type="rviz" 
-          args="-d $(find suturo_bringup)/BAConfig.rviz"/>
+          args="-d $(find suturo_bringup)/BA-Config.rviz"/>
 </launch>
